@@ -17,3 +17,6 @@ fi
 # pipe keys to the clipboard
 alias pubkey="more ~/.ssh/keys/personal.pub | pbcopy | echo '=> Personal public key copied to clipboard'"
 alias pubkeywijs="more ~/.ssh/keys/wijs.pub | pbcopy | echo '=> Wijs public key copied to clipboard'"
+
+# clear the DNS cache
+alias clearcache="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; echo 'cache cleared';"
