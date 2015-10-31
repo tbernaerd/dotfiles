@@ -1,0 +1,44 @@
+"*":
+  "release-notes":
+    viewedVersion: "0.95.0"
+  welcome:
+    showOnStartup: false
+  editor:
+    showIndentGuide: false
+    invisibles: {}
+    showInvisibles: true
+    backUpBeforeSaving: true
+    fontFamily: "DejaVu Sans Mono"
+    fontSize: 13
+  core:
+    disabledPackages: [
+      "exception-reporting"
+      "metrics"
+      "linter"
+      "linter-csslint"
+      "linter-js-yaml"
+      "linter-jscs"
+      "linter-php"
+      "linter-rubocop"
+      "linter-ruby"
+    ]
+    projectHome: "~/code"
+    audioBeep: false
+    themes: [
+      "one-dark-ui"
+      "atom-dark-syntax"
+    ]
+  minimap:
+    autoToggle: true
+    displayPluginsControls: false
+    plugins: {}
+  linter: {}
+  "isotope-ui":
+    backgroundColor: "false"
+    fontFamily: "Source Sans Pro"
+  "isotope-light-ui":
+    fontFamily: "System Default"
+    matchEditorFont: true
+  autosave:
+    enabled: true
+  "atom-material-ui": {}

@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# Generates a password. Optional parameter is the length, otherwise it's 26 char
+
+PW=$(openssl rand -base64 32 | head -c${1-26});
+echo 'new password: '$PW;
+echo $PW | pbcopy;

@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+# Clears the cache on Mac OS X 10.10 and higher
+
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+echo 'cache cleared'

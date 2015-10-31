@@ -1,0 +1,12 @@
+atom.symlink/.node-gyp
+atom.symlink/.storage
+atom.symlink/.apm
+atom.symlink/packages
+atom.symlink/storage
+atom.symlink/themes
+atom.symlink/compile-cache
+
+git/gitconfig.symlink
+ssh.symlink/keys/
+ssh.symlink/config
+ssh.symlink/known_hosts
