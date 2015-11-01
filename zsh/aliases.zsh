@@ -20,3 +20,6 @@ alias pubkeywijs="more ~/.ssh/keys/wijs.pub | pbcopy | echo '=> Wijs public key 
 
 # clear the DNS cache
 alias clearcache="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; echo 'cache cleared';"
+
+# you only live once so deploy to production
+alias yolo="cap production deploy"
