@@ -8,8 +8,7 @@
     invisibles: {}
     showInvisibles: true
     backUpBeforeSaving: true
-    fontFamily: "DejaVu Sans Mono"
-    fontSize: 13
+    fontFamily: "Menlo"
   core:
     disabledPackages: [
       "exception-reporting"

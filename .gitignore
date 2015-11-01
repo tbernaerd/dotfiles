@@ -10,3 +10,4 @@ git/gitconfig.symlink
 ssh.symlink/keys/
 ssh.symlink/config
 ssh.symlink/known_hosts
+checklist.md

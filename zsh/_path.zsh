@@ -6,3 +6,6 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 
 # add composer to PATH
 export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+# add the wijs project creator scripts to PATH
+export PATH=""$HOME/gitwijs/wijs-project-creator:$PATH""
