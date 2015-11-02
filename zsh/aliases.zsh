@@ -23,3 +23,6 @@ alias clearcache="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder;
 
 # you only live once so deploy to production
 alias yolo="cap production deploy"
+
+# empty the trash
+alias ivago="sudo rm -rf ~/.Trash/*"
