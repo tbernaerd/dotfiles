@@ -1,3 +1,1 @@
-function p () {
-  cd "$HOME/gitwijs/$1"
-}
+p() { cd ~/gitwijs/$1; }
