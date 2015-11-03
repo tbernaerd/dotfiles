@@ -26,3 +26,9 @@ alias yolo="cap production deploy"
 
 # empty the trash
 alias ivago="sudo rm -rf ~/.Trash/*"
+
+# add Things alias
+alias t="things"
+
+# add Symfony app/console alias
+alias pa="php app/console"
