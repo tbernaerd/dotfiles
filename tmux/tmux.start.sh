@@ -3,7 +3,7 @@
 # This script is used to have a tmux choice window start each time
 # I open up iTerm2. See :
 # http://www.huyng.com/posts/productivity-boost-with-tmux-iterm2-workspaces/
-# 
+#
 
 export PATH=$PATH:/usr/local/bin
 
@@ -15,7 +15,7 @@ export PATH=$PATH:/usr/local/bin
 
 # present menu for user to choose which workspace to open
 PS3="Please choose your session: "
-options=($(tmux list-sessions -F "#S") "NEW SESSION" "BASH")
+options=($(tmux list-sessions -F "#S") "NEW SESSION" "ZSH")
 echo "Available sessions"
 echo "------------------"
 echo " "
@@ -27,8 +27,8 @@ do
             tmux new -s "$SESSION_NAME"
             break
             ;;
-        "BASH")
-            bash --login
+        "ZSH")
+            zsh --login
             break;;
         *)
             tmux attach-session -t $opt
