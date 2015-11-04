@@ -34,4 +34,5 @@ alias t="things"
 alias pa="php app/console"
 
 # alias tree
-alias t="tree"
+alias t="tree -L 1 -l"
+alias tt="tree -L 2 -l"
