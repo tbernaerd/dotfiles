@@ -11,15 +11,9 @@
     fontFamily: "Menlo"
   core:
     disabledPackages: [
+      "autocomplete"
       "exception-reporting"
       "metrics"
-      "linter"
-      "linter-csslint"
-      "linter-js-yaml"
-      "linter-jscs"
-      "linter-php"
-      "linter-rubocop"
-      "linter-ruby"
     ]
     projectHome: "~/code"
     audioBeep: false
@@ -41,3 +35,5 @@
   autosave:
     enabled: true
   "atom-material-ui": {}
+  "markdown-preview":
+    useGitHubStyle: true
