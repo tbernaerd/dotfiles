@@ -32,3 +32,6 @@ alias t="things"
 
 # add Symfony app/console alias
 alias pa="php app/console"
+
+# alias tree
+alias t="tree"
