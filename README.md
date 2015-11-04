@@ -51,3 +51,13 @@ forked dotfiles — say, "Java" — you can simply add a `java` directory and pu
 files in there. Anything with an extension of `.zsh` will get automatically
 included into your shell. Anything with an extension of `.symlink` will get
 symlinked without extension into `$HOME` when you run `script/bootstrap`.
+
+## What it looks like
+
+My prompt and ZSH config looks like this:
+
+![prompt](img/prompt.png)
+
+* username and hostname, current directory, git branch, and change indicator
+* Tmux bottom row: hostname, external IP, internal IP, windows, sessions/windows,
+date, time
