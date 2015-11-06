@@ -318,7 +318,7 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>302</string>
+		<string>304</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -343,11 +343,11 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>357 239 445 77 0 0 1920 1177 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>221 366 924 485 0 0 2560 1417 </string>
+	<string>-1785 148 924 485 -1920 -124 1920 1177 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>155 473 592 584 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-960 -98 960 1151 -1920 -124 1920 1177 </string>
+	<string>-960 22 960 1035 -1920 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>2242 321 650 551 1920 180 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1000,7 +1000,7 @@
 			<key>Normal Font</key>
 			<string>Monaco 13</string>
 			<key>Option Key Sends</key>
-			<integer>1</integer>
+			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
 			<integer>0</integer>
 			<key>Right Option Key Sends</key>
@@ -1178,7 +1178,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>454840328.95209801</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>468313670.74174601</real>
+	<real>468404309.92485899</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1241,7 +1241,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-11-04T07:07:29Z</date>
+	<date>2015-11-05T08:17:51Z</date>
 	<key>SUSkippedVersion</key>
 	<string>2.1.4</string>
 	<key>SavePasteHistory</key>
