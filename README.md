@@ -9,7 +9,7 @@ I stole most of it elsewhere, mostly from:
 
 First of all, let's list the things that are **not** included:
 
-* Homebrew installerÓ
+* Homebrew installer
 * Brew and brew cask lists
 * OS X tweaks
 
@@ -32,7 +32,7 @@ See how it works here:
 
 Run this:
 
-```shm
+```
 git clone https://github.com/tbernaerd/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 installer/bootstrap

@@ -24,6 +24,9 @@ alias clearcache="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder;
 # you only live once so deploy to production
 alias yolo="cap production deploy"
 
+# I fucked up, so reset to git version
+alias gotverdomme="git reset --hard"
+
 # empty the trash
 alias ivago="sudo rm -rf ~/.Trash/*"
 
