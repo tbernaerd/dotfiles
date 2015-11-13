@@ -18,8 +18,11 @@
     projectHome: "~/code"
     audioBeep: false
     themes: [
-      "one-dark-ui"
-      "atom-dark-syntax"
+      "atom-material-ui"
+      "one-dark-syntax"
+    ]
+    packagesWithKeymapsDisabled: [
+      "markdown-preview"
     ]
   minimap:
     autoToggle: true
@@ -35,5 +38,4 @@
   autosave:
     enabled: true
   "atom-material-ui": {}
-  "markdown-preview":
-    useGitHubStyle: true
+  "markdown-preview": {}
