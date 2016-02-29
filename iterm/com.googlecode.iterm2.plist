@@ -307,6 +307,8 @@
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
 	<false/>
+	<key>NSScrollViewShouldScrollUnderTitlebar</key>
+	<false/>
 	<key>NSTableView Columns KeyBingingTable</key>
 	<array>
 		<data>
@@ -318,7 +320,7 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>304</string>
+		<string>307</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -343,13 +345,13 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>357 239 445 77 0 0 1920 1177 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>-1785 148 924 485 -1920 -124 1920 1177 </string>
+	<string>222 482 606 456 0 0 2560 1417 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>155 473 592 584 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-960 22 960 1035 -1920 0 1920 1057 </string>
+	<string>-957 -235 954 1160 -1920 -252 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>2242 321 650 551 1920 180 1440 877 </string>
+	<string>1030 292 650 552 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>254 146 650 476 0 0 1920 1177 </string>
 	<key>NeverWarnAboutShortLivedSessions_B7B8050A-D90C-4340-A59E-2B045A16601F</key>
@@ -1175,10 +1177,14 @@
 	</array>
 	<key>NoSyncNeverRemindPrefsChangesCopy</key>
 	<true/>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>468513913.60173899</real>
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>454840328.95209801</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>468404309.92485899</real>
+	<real>477476418.89143401</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1236,12 +1242,14 @@
 	<integer>3</integer>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
+	<key>SUFeedAlternateAppNameKey</key>
+	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>http://iterm2.com/appcasts/final.xml</string>
+	<string>https://iterm2.com/appcasts/final.xml</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-11-05T08:17:51Z</date>
+	<date>2016-02-19T08:22:38Z</date>
 	<key>SUSkippedVersion</key>
 	<string>2.1.4</string>
 	<key>SavePasteHistory</key>
@@ -1291,6 +1299,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.1.3</string>
+	<string>2.9.20160206</string>
 </dict>
 </plist>

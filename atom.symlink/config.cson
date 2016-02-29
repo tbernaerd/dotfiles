@@ -1,41 +1,41 @@
 "*":
-  "release-notes":
-    viewedVersion: "0.95.0"
-  welcome:
-    showOnStartup: false
-  editor:
-    showIndentGuide: false
-    invisibles: {}
-    showInvisibles: true
-    backUpBeforeSaving: true
-    fontFamily: "Menlo"
+  "atom-material-ui": {}
+  autosave:
+    enabled: true
   core:
+    audioBeep: false
     disabledPackages: [
       "autocomplete"
       "exception-reporting"
       "metrics"
     ]
+    packagesWithKeymapsDisabled: [
+      "markdown-preview"
+    ]
     projectHome: "~/code"
-    audioBeep: false
     themes: [
       "atom-material-ui"
       "one-dark-syntax"
     ]
-    packagesWithKeymapsDisabled: [
-      "markdown-preview"
-    ]
+  editor:
+    backUpBeforeSaving: true
+    fontFamily: "Menlo"
+    invisibles: {}
+    showIndentGuide: false
+    showInvisibles: true
+  "isotope-light-ui":
+    fontFamily: "System Default"
+    matchEditorFont: true
+  "isotope-ui":
+    backgroundColor: "false"
+    fontFamily: "Source Sans Pro"
+  linter: {}
+  "markdown-preview": {}
   minimap:
     autoToggle: true
     displayPluginsControls: false
     plugins: {}
-  linter: {}
-  "isotope-ui":
-    backgroundColor: "false"
-    fontFamily: "Source Sans Pro"
-  "isotope-light-ui":
-    fontFamily: "System Default"
-    matchEditorFont: true
-  autosave:
-    enabled: true
-  "atom-material-ui": {}
-  "markdown-preview": {}
+  "release-notes":
+    viewedVersion: "0.95.0"
+  welcome:
+    showOnStartup: false
