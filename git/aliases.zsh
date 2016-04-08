@@ -21,3 +21,5 @@ alias gb='git branch'
 alias ga='git add'
 alias gap='git add -p'
 alias gaa='git add -A' # stages all
+
+alias whodunit='git shortlog -sn'
