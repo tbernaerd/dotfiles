@@ -1,4 +1,7 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "fae8eacf-a10b-4a99-b9c5-098668f27d71"
   "atom-material-ui": {}
   autosave:
     enabled: true

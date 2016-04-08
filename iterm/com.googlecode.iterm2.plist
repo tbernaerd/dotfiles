@@ -296,7 +296,7 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/temp</string>
+	<string>~/.dotfiles/assets</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSNavPanelExpandedSizeForSaveMode</key>
@@ -345,11 +345,11 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>357 239 445 77 0 0 1920 1177 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>222 482 606 456 0 0 2560 1417 </string>
+	<string>222 540 606 456 0 0 2560 1417 </string>
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>155 473 592 584 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>-957 -235 954 1160 -1920 -252 1920 1177 </string>
+	<string>3 24 2541 1393 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>1030 292 650 552 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -523,17 +523,17 @@
 				<real>0.066666670143604279</real>
 			</dict>
 			<key>Background Image Is Tiled</key>
-			<false/>
+			<true/>
 			<key>Background Image Location</key>
-			<string></string>
+			<string>/Users/tom/.dotfiles/assets/itermbg.png</string>
 			<key>Blend</key>
-			<real>0.30000001192092896</real>
+			<real>0.76667419060682651</real>
 			<key>Blink Allowed</key>
 			<false/>
 			<key>Blinking Cursor</key>
 			<false/>
 			<key>Blur</key>
-			<true/>
+			<false/>
 			<key>Blur Radius</key>
 			<real>15</real>
 			<key>Bold Color</key>
@@ -574,7 +574,7 @@
 			<key>Cursor Type</key>
 			<integer>2</integer>
 			<key>Custom Command</key>
-			<string>Yes</string>
+			<string>No</string>
 			<key>Custom Directory</key>
 			<string>No</string>
 			<key>Default Bookmark</key>
@@ -1152,7 +1152,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.02350684255361557</real>
+			<real>0.0</real>
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
@@ -1175,6 +1175,8 @@
 			<string>/Users/tom</string>
 		</dict>
 	</array>
+	<key>NoSyncHaveShownPromoWithId_4</key>
+	<true/>
 	<key>NoSyncNeverRemindPrefsChangesCopy</key>
 	<true/>
 	<key>NoSyncPermissionToShowTip</key>
@@ -1182,9 +1184,9 @@
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>468513913.60173899</real>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>454840328.95209801</real>
+	<real>477564588.949296</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>477476418.89143401</real>
+	<real>478006313.77364099</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -1249,7 +1251,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-02-19T08:22:38Z</date>
+	<date>2016-02-25T17:22:38Z</date>
 	<key>SUSkippedVersion</key>
 	<string>2.1.4</string>
 	<key>SavePasteHistory</key>
