@@ -3,28 +3,9 @@
 I stole most of it elsewhere, mostly from:
 
 * [Zach Holman](https://github.com/holman/dotfiles)
+* [Mathias Bynens](https://github.com/mathiasbynens/dotfiles)
 * [Bert _devops_ Pattyn](https://github.com/dextro/dotfiles)
 
-## Not included
-
-First of all, let's list the things that are **not** included:
-
-* Homebrew installer
-* Brew and brew cask lists
-* OS X tweaks
-
-These are all handled by our Wijs implementation of Sumerlumic. Superlumic is
-a wrapper over Ansible, written by [Roderik Van der Veer](https://github.com/superlumic)
-and adapted by me and Bert _devops_ Pattyn to suit our needs at [Wijs](https://wijs.be/)
-
-After Superlumic has ran on a new installation of OS X, my software and configs
-are exactly the way I like them.
-
-See how it works here:
-
-* [Our fork of the Superlumic wrapper](https://github.com/wijs/superlumic)
-* [Our config](https://github.com/wijs/superlumic-config)
-* [My tombernaerd.yml config file](https://github.com/wijs/superlumic-config/blob/master/users/tombernaerd.yml)
 
 ## How it works
 
@@ -59,5 +40,3 @@ My prompt and ZSH config looks like this:
 ![prompt](img/prompt.png)
 
 * username and hostname, current directory, git branch, and change indicator
-* Tmux bottom row: hostname, external IP, internal IP, windows, sessions/windows,
-date, time
