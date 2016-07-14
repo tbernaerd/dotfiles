@@ -16,22 +16,13 @@ fi
 
 # pipe keys to the clipboard
 alias pubkey="more ~/.ssh/keys/personal.pub | pbcopy | echo '=> Personal public key copied to clipboard'"
-alias pubkeywijs="more ~/.ssh/keys/wijs.pub | pbcopy | echo '=> Wijs public key copied to clipboard'"
+alias pubkeyse="more ~/.ssh/keys/studioemma.pub | pbcopy | echo '=> Studio Emma public key copied to clipboard'"
 
 # clear the DNS cache
-alias clearcache="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; echo 'cache cleared';"
-
-# you only live once so deploy to production
-alias yolo="cap production deploy"
-
-# I fucked up, so reset to git version
-alias gitverdomme="git reset --hard"
+alias flushdns="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; echo 'cache cleared';"
 
 # empty the trash
 alias ivago="sudo rm -rf ~/.Trash/*"
-
-# add Things alias
-alias t="things"
 
 # add Symfony app/console alias
 alias pa="php app/console"
@@ -39,3 +30,4 @@ alias pa="php app/console"
 # alias tree
 alias t="tree -L 1 -l"
 alias tt="tree -L 2 -l"
+alias ttt="tree -L 3 -l"

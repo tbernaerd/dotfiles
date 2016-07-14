@@ -26,10 +26,10 @@ brew install bash
 brew tap homebrew/versions
 brew install bash-completion2
 
-# Switch to using brew-installed bash as default shell
-if ! fgrep -q '/usr/local/bin/bash' /etc/shells; then
-  echo '/usr/local/bin/bash' | sudo tee -a /etc/shells;
-  chsh -s /usr/local/bin/bash;
+# Switch to using brew-installed zsh as default shell
+if ! fgrep -q '/usr/local/bin/zsh' /etc/shells; then
+  echo '/usr/local/bin/zsh' | sudo tee -a /etc/shells;
+  chsh -s /usr/local/bin/zsh;
 fi;
 
 # Install `wget` with IRI support.
@@ -54,7 +54,7 @@ brew install tree
 
 # Install cask apps
 brew cask install appcleaner
-brew cask install caffeine
+brew cask install alfred
 brew cask install calibre
 brew cask install dash
 brew cask install deluge
@@ -63,7 +63,6 @@ brew cask install dropbox
 brew cask install filezilla
 brew cask install firefox
 brew cask install flux
-brew cask install istat-menus
 brew cask install macdown
 brew cask install microsoft-office
 brew cask install plex-home-theater
@@ -75,11 +74,12 @@ brew cask install vagrant
 brew cask install hipchat
 brew cask install google-chrome
 brew cask install iterm2
-brew cask install phpstorm
+brew cask install phpstorm 
 brew cask install sequel-pro
 brew cask install iterm2
 brew cask install atom
-brew cask install hipchat
+brew cask install 1password
+brew cask install karabiner
 
 
 # Remove outdated versions from the cellar.

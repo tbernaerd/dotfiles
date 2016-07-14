@@ -22,4 +22,5 @@ alias ga='git add'
 alias gap='git add -p'
 alias gaa='git add -A' # stages all
 
+# List contributors per repo
 alias whodunit='git shortlog -sn'
