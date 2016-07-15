@@ -80,6 +80,7 @@ brew cask install iterm2
 brew cask install atom
 brew cask install 1password
 brew cask install karabiner
+brew cask install whatsapp
 
 
 # Remove outdated versions from the cellar.
