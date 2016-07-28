@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# Create SE approved changelogs and copy them to the clipboard
+#
+# Yes, I am that lazy
+#
+# optional parameter is the date in european format: 21/07/2016
+#
+# Bear in mind the --since option for git log does not include the date
+# specified, so count back one more day.
+
+
+CHANGELOG=$(git log --since=$1 --no-merges --pretty=format:'%h : %s');
+echo "Changelog since $1\n\n$CHANGELOG";
+echo "$CHANGELOG" | pbcopy
