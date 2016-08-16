@@ -51,6 +51,8 @@ brew install speedtest_cli
 brew install ssh-copy-id
 brew install testssl
 brew install tree
+brew install htop
+brew install grc
 
 # Install cask apps
 brew cask install appcleaner
@@ -81,6 +83,7 @@ brew cask install atom
 brew cask install 1password
 brew cask install karabiner
 brew cask install whatsapp
+brew cask install mpv
 
 
 # Remove outdated versions from the cellar.
