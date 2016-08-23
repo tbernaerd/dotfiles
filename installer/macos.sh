@@ -199,6 +199,11 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 # Stop iTunes from responding to the keyboard media keys
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
+# Do not auto connect bluetooth devices. I'm only using audio devices and don't
+# want them to autoconnect
+defaults write /Library/Preferences/com.apple.Bluetooth.plist DontPageAudioDevices 1
+
+
 ###############################################################################
 # Screen                                                                      #
 ###############################################################################
