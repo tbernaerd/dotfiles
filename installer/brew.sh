@@ -53,6 +53,7 @@ brew install testssl
 brew install tree
 brew install htop
 brew install grc
+brew install figlet
 
 # Install cask apps
 brew cask install appcleaner
