@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# Fetches the public IP, and copies it to clipboard
+
+IP=$(dig +short myip.opendns.com @resolver1.opendns.com);
+echo 'Wan IP is: '$IP;
+echo $IP | pbcopy;
