@@ -7,8 +7,9 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 # add composer to PATH
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
-# add the wijs project creator scripts to PATH
-export PATH=""$HOME/gitwijs/wijs-project-creator:$PATH""
-
 # add nvm to path
 export NVM_DIR=~/.nvm
+
+# add mysql to path
+export MYSQL_PATH=/usr/local/Cellar/mysql/5.6.27
+export PATH=$PATH:$MYSQL_PATH/bin

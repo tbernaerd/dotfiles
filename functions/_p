@@ -1,2 +1,2 @@
 #compdef p
-_files -W ~/code/gitwijs -/
+_files -W ~/code/magento -/

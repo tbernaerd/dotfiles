@@ -10,6 +10,6 @@
 # `functions/_p`.
 p () {
   if [ ! -z "$1" ]; then
-    cd "$HOME/code/gitwijs/$1"
+    cd "$HOME/code/magento/$1"
   fi
 }

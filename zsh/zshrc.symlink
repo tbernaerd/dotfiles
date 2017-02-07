@@ -34,3 +34,4 @@ done
 unset config_files
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+archey --color

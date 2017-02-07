@@ -19,7 +19,7 @@ export LC_ALL="en_US.UTF-8"
 export ZSH=$HOME/.dotfiles
 
 # your project folder that we can `p [tab]` to
-export PROJECTS=$HOME/code/gitwijs
+export PROJECTS=$HOME/code/magento
 
 # editor
 export EDITOR='atom'

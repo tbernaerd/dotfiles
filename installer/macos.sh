@@ -203,6 +203,9 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/nul
 # want them to autoconnect
 defaults write /Library/Preferences/com.apple.Bluetooth.plist DontPageAudioDevices 1
 
+# disable mouse enlargement
+defaults write ~/Library/Preferences/.GlobalPreferences CGDisableCursorLocationMagnification -bool YES
+
 
 ###############################################################################
 # Screen                                                                      #
@@ -262,6 +265,9 @@ defaults write com.apple.finder ShowPathbar -bool true
 
 # Display full POSIX path as Finder window title
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+
+# Keep folders on top when sorting by name
+defaults write com.apple.finder _FXSortFoldersFirst -bool true
 
 # When performing a search, search the current folder by default
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
@@ -770,10 +776,6 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 ###############################################################################
 # Google Chrome & Google Chrome Canary                                        #
 ###############################################################################
-
-# Allow installing user scripts via GitHub Gist or Userscripts.org
-defaults write com.google.Chrome ExtensionInstallSources -array "https://gist.githubusercontent.com/" "http://userscripts.org/*"
-defaults write com.google.Chrome.canary ExtensionInstallSources -array "https://gist.githubusercontent.com/" "http://userscripts.org/*"
 
 # Disable the all too sensitive backswipe on trackpads
 #defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
