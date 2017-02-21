@@ -31,3 +31,6 @@ alias pa="php app/console"
 alias t="tree -L 1 -l"
 alias tt="tree -L 2 -l"
 alias ttt="tree -L 3 -l"
+
+# short weather info
+alias weather="curl -s wttr.in | sed -n "1,7p""
