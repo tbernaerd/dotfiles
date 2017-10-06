@@ -60,17 +60,13 @@ brew install archey
 brew cask install appcleaner
 brew cask install alfred
 brew cask install calibre
-brew cask install dash
 brew cask install deluge
-brew cask install disk-inventory-x
 brew cask install dropbox
 brew cask install filezilla
 brew cask install firefox
 brew cask install flux
 brew cask install macdown
-brew cask install microsoft-office
 brew cask install plex-home-theater
-brew cask install slack
 brew cask install spectacle
 brew cask install spotify
 brew cask install telegram
@@ -83,7 +79,6 @@ brew cask install sequel-pro
 brew cask install iterm2
 brew cask install atom
 brew cask install 1password
-brew cask install karabiner
 brew cask install whatsapp
 brew cask install mpv
 

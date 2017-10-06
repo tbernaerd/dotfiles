@@ -34,3 +34,8 @@ alias ttt="tree -L 3 -l"
 
 # short weather info
 alias weather="curl -s wttr.in | sed -n "1,7p""
+
+# proxy
+alias proxy-on='ssh -fN web02'
+alias proxy-check='ssh -O check web02'
+alias proxy-off='ssh -O exit web02'

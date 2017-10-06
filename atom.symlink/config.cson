@@ -16,6 +16,7 @@
       "markdown-preview"
     ]
     projectHome: "~/code"
+    telemetryConsent: "no"
     themes: [
       "atom-material-ui"
       "one-dark-syntax"
@@ -26,6 +27,8 @@
     invisibles: {}
     showIndentGuide: false
     showInvisibles: true
+  "git-blame":
+    columnWidth: 328
   "isotope-light-ui":
     fontFamily: "System Default"
     matchEditorFont: true

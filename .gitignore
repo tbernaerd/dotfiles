@@ -6,7 +6,6 @@ atom.symlink/storage
 atom.symlink/themes
 atom.symlink/compile-cache
 atom.symlink/blob-store
-
 git/gitconfig.symlink
 ssh.symlink/keys/
 ssh.symlink/config
