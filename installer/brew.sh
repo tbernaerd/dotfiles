@@ -54,7 +54,6 @@ brew install tree
 brew install htop
 brew install grc
 brew install figlet
-brew install archey
 
 # Install cask apps
 brew cask install appcleaner
