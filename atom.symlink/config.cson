@@ -18,8 +18,8 @@
     projectHome: "~/code"
     telemetryConsent: "no"
     themes: [
-      "atom-material-ui"
-      "one-dark-syntax"
+      "city-lights-ui"
+      "city-lights-syntax"
     ]
   editor:
     backUpBeforeSaving: true
